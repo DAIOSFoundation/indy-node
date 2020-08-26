@@ -20,7 +20,8 @@ if [ "$POOL_DATA_FILE" = "--help" ]; then
 fi
 
 if [ -z "$BASE_IP" ]; then
-        BASE_IP="10.0.0."
+#        BASE_IP="10.0.0."
+        BASE_IP="192.168.10."
 fi
 
 if [ -z "$CNT" ]; then
